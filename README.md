@@ -1,5 +1,7 @@
-# Installing the Router
+# Installing Material UI
 
-[docs][https://reacttraining.com/react-router/web/guides/quick-start]
+[docs][https://material-ui.com/#/]
 
-Look in `App.js` for the installing of the `Router`, `Switch` and `Route` components. `NavLink`s go in the menu (and in the navigation drawer when we install [Material UI][https://material-ui.com/#/])
+We'll now change the header for an [`App Bar`][https://material-ui.com/components/app-bar/] component. Links from the header will be moved to the [`Nav Drawer`][https://material-ui.com/components/drawers/] component that we will import.
+
+Note how we added a `theme.js` to keep consistency.

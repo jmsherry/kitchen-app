@@ -1,0 +1,27 @@
+.page-header {
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.page-header .logo {
+  font-size: 4rem;
+  margin-right: auto;
+}
+
+.page-header a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.page-header a:hover,
+.page-header a:focus {
+  opacity: 0.8;
+}
+
+.page-header a.active {
+  /* color: #ddd; */
+  font-weight: bold;
+}

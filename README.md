@@ -7,3 +7,5 @@ We'll now change the header for an [`App Bar`][https://material-ui.com/component
 Note how we added a `theme.js` to keep consistency.
 
 Note the import of [`clsx`][https://www.npmjs.com/package/clsx] to help with material-ui's css modules implementations
+
+Note we added a context for the relationship between the NavDrawer and the hamburger button in the header. ([Guide][https://dev.to/efearas/how-to-usecontext-and-set-value-of-context-in-child-components-in-3-steps-3j9h])

@@ -11,6 +11,7 @@ import Recipes from "./pages/Recipes/Recipes";
 import Cupboard from "./pages/Cupboard/Cupboard";
 import Meals from "./pages/Meals/Meals";
 import Calendar from "./pages/Calendar/Calendar";
+import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
   const [navDrawerOpen, setNavDrawerOpen] = useState(false);
@@ -25,6 +26,7 @@ function App() {
             <Route path="/cupboard" component={Cupboard} />
             <Route path="/meals" component={Meals} />
             <Route path="/calendar" component={Calendar} />
+            <Route path="*" component={NotFound} />
           </Switch>
         </Router>
       </NavDrawerContext.Provider>
